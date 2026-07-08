@@ -1,2 +1,39 @@
-# Project-3-_--Chat-Application
-A real-time chat application built with **Python**, **TCP sockets**, and **multithreading**. It supports multiple concurrent clients through a client-server architecture, enabling efficient real-time message exchange and connection management.
+# Terminal Chat Application
+
+A simple real-time chat application built using Python sockets.
+
+## Requirements
+
+- Python 3.10+
+
+## Run the Server
+
+```bash
+python server.py
+```
+
+## Run Client 1
+
+```bash
+python client.py
+```
+
+Username:
+
+```
+Alice
+```
+
+## Run Client 2
+
+```bash
+python client.py
+```
+
+Username:
+
+```
+Bob
+```
+
+Now both clients can chat in real time.
